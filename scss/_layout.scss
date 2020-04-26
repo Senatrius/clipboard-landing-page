@@ -132,10 +132,6 @@
       justify-content: center;
       align-items: center;
 
-      &:hover {
-        background: $strong-cyan;
-      }
-
       &:not(:last-child) {
         margin-right: 3.5rem;
       }
@@ -144,11 +140,19 @@
 }
 
 @media screen and (min-width: 767px) {
+  .cta {
+    margin-bottom: 13rem;
+  
+    &__logo {
+      margin: 11.3rem auto 6.3rem;
+    }
+  }
+
   .track {
     &__features {
       flex-direction: row;
       align-items: center;
-      margin: 6.5rem auto 13.5rem;
+      margin: 8rem auto 15rem;
     }
 
     &__image {
@@ -168,7 +172,7 @@
     }
 
     &__feature-card {
-      margin-bottom: 6.2rem;
+      margin-bottom: 4.2rem;
       width: calc(100% + 4rem);
     }
 
@@ -178,10 +182,10 @@
   }
 
   .access {
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
   
     &__copy {
-      margin-bottom: 5.5rem;
+      margin-bottom: 10.5rem;
     }
   
     &__image {
@@ -220,7 +224,7 @@
   }
 
   .available {
-    margin-bottom: 12rem;
+    margin-bottom: 13rem;
   }
 
   .footer {
